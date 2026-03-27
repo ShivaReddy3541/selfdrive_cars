@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logos/main.jpeg" type="image/jpeg">
+    <title>Our Self Drive Fleet | DaddyCars & Automotives | Self Drive Cars in LB Nagar</title>
+    <meta name="description"
+        content="Premium self drive cars near you in LB Nagar and BN Reddy. Daddy Cars and Automotives offers a wide fleet of hatchbacks, SUVs, and luxury cars for self-drive.">
+    <meta name="keywords"
+        content="Self Drive Cars near me, daddy cars, daddycars, daddy self drive cars, daddy selfdrive cars, daddy cars and automotives, Self Drive Cars in LB Nagar, self drive cars in BN Reddy, Daddy Cars Hyderabad">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://daddycars.in/self-drive-details.html">
+
+    <!-- Open Graph (for Google / social preview) -->
+    <meta property="og:title" content="Our Self Drive Fleet | DaddyCars & Automotives">
+    <meta property="og:description" content="Premium self drive cars near you in LB Nagar and BN Reddy.">
+    <meta property="og:url" content="https://daddycars.in/self-drive-details.html">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts: Outfit -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        .details-header {
+            padding: 140px 0 50px;
+            text-align: center;
+            background: var(--darker-bg);
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .category-car-card {
+            background: var(--darker-bg);
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .category-car-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-color);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .car-detail-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .car-detail-content {
+            padding: 25px;
+        }
+
+        .car-specs {
+            display: flex;
+            gap: 15px;
+            margin: 15px 0;
+            color: var(--text-gray);
+            font-size: 0.9rem;
+        }
+
+        .car-specs span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .price-tag {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .category-section {
+            margin-bottom: 100px;
+            scroll-margin-top: 100px;
+            /* Space for the sticky navbar */
+        }
+
+        .category-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+            font-weight: 800;
+        }
+
+        .category-section p {
+            color: var(--text-gray);
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+            text-align: center;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .loading-container {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        @media (max-width: 768px) {
+            .grid.cards-container {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+
+            .car-slider-container {
+                height: 150px;
+                /* Smaller height for mobile 2-col cards */
+            }
+
+            .car-detail-content {
+                padding: 15px;
+            }
+
+            .car-detail-content h3 {
+                font-size: 1rem;
+            }
+
+            .category-section h2 {
+                font-size: 1.8rem;
+            }
+
+            .price-tag {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="scrolled">
+        <div class="nav-container">
+            <a href="index.html#home" class="logo">
+                <img src="logos/daddycars-logo-lb-nagar.jpeg" alt="Daddy Cars and Automotives - Self Drive Cars in LB Nagar Hyderabad"> DaddyCars<span class="highlight">&</span>Automotives
+            </a>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="#self-drive" class="nav-link active">Self Drive</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="tel:+919949750999" class="nav-link btn-contact"><i class="fas fa-phone-alt"></i>
+                        9949750999</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header Removed as requested -->
+
+    <main id="self-drive" class="section" style="padding-top: 120px;">
+        <div class="container">
+            <!-- Section 1: Base Cars -->
+            <div id="category-base" class="category-section">
+                <h2>Base Cars</h2>
+                <p>Economy cars starting from ₹1499/day.</p>
+                <div class="grid cards-container">
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/Base Cars/Alto/alto-self-drive-lb-nagar-1.jpg"
+                                    alt="Self Drive Cars in LB Nagar - Alto">
+                                <img src="selfdrive/final_cars_images/cars_images/Base Cars/Alto/alto-self-drive-lb-nagar-2.jpg"
+                                    alt="Alto Self Drive Car rental Hyderabad">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Alto</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹1499/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/Base Cars/Punch/punch-self-drive-cars-hyderabad-1.jpg"
+                                    alt="Self Drive Cars in LB Nagar - TATA Punch">
+                                <img src="selfdrive/final_cars_images/cars_images/Base Cars/Punch/punch-self-drive-cars-hyderabad-2.jpg"
+                                    alt="TATA Punch Car rental Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/Base Cars/Punch/punch-self-drive-cars-hyderabad-3.jpg"
+                                    alt="Punch Detail">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Punch</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹1599/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/Base Cars/Kwid/kwid-car-rental-bn-reddy-1.jpg"
+                                    alt="self drive cars in BN Reddy - Kwid">
+                                <img src="selfdrive/final_cars_images/cars_images/Base Cars/Kwid/kwid-car-rental-bn-reddy-2.jpg"
+                                    alt="Kwid Car rental in Hyderabad">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Kwid</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹1499/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 2: 5-Seat Cars -->
+            <div id="category-5-seat" class="category-section">
+                <h2>5-Seat Cars</h2>
+                <p>Standard hatchbacks starting from ₹1799/day.</p>
+                <div class="grid cards-container">
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/shift/swift-self-drive-hyderabad-1.jpeg"
+                                    alt="daddy self drive cars Swift Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/shift/swift-self-drive-hyderabad-2.jpeg"
+                                    alt="Swift Car rental LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/shift/swift-self-drive-hyderabad-3.jpeg"
+                                    alt="Swift Interior">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Swift</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹1799/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/dzire/dzire-self-drive-lb-nagar-1.jpeg"
+                                    alt="Maruti Dzire Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/dzire/dzire-self-drive-lb-nagar-2.jpeg"
+                                    alt="Dzire Car rental BN Reddy">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/dzire/dzire-self-drive-lb-nagar-3.jpeg"
+                                    alt="Dzire Interior">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Dzire</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹1799/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/Baleno/baleno-car-rental-hyderabad-1.jpeg"
+                                    alt="Maruti Baleno Self Drive Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/Baleno/baleno-car-rental-hyderabad-2.jpeg"
+                                    alt="Baleno rental in LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/Baleno/baleno-car-rental-hyderabad-3.jpeg"
+                                    alt="Baleno Interior">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Baleno</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹1799/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/Glanza/glanza-self-drive-bn-reddy-1.jpeg"
+                                    alt="Toyota Glanza Self Drive BN Reddy">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/Glanza/glanza-self-drive-bn-reddy-2.jpeg"
+                                    alt="Glanza Car rental Hyderabad">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Glanza</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹1799/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/i20/i20-self-drive-lb-nagar-1.jpeg" alt="Hyundai i20 Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/i20/i20-self-drive-lb-nagar-2.jpeg"
+                                    alt="i20 Car rental Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/i20/i20-self-drive-lb-nagar-3.jpeg"
+                                    alt="i20 Interior View">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>i20</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹1899/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <!-- Altroz moved from 5-Seat Pro -->
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/Altroz/altroz-self-drive-hyderabad-1.png"
+                                    alt="Tata Altroz Self Drive Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/Altroz/altroz-self-drive-hyderabad-2.png"
+                                    alt="Altroz rental in LB Nagar">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Altroz</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹1899/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <!-- Nexon moved from 5-Seat Pro -->
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/Nexon/nexon-self-drive-lb-nagar-1.png"
+                                    alt="Tata Nexon Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/Nexon/nexon-self-drive-lb-nagar-2.png"
+                                    alt="Nexon Car rental Hyderabad">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>TATA Nexon</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹2199/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/Fronx/fronx-car-rental-bn-reddy-1.jpeg"
+                                    alt="Maruti Fronx Car rental BN Reddy">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/Fronx/fronx-car-rental-bn-reddy-2.jpeg"
+                                    alt="Fronx Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat cars/Fronx/fronx-car-rental-bn-reddy-3.jpeg"
+                                    alt="Fronx Angle View">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Fronx</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹1899/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 3: 5-Seat Pro Cars -->
+            <div id="category-5-seat-pro" class="category-section">
+                <h2>5-Seat Pro Cars</h2>
+                <p>Premium hatchbacks and SUVs starting from ₹2299/day.</p>
+                <div class="grid cards-container">
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Kia Seltos/seltos-luxury-self-drive-hyderabad-1.png"
+                                    alt="Kia Seltos Luxury Self Drive Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Kia Seltos/seltos-luxury-self-drive-hyderabad-2.png"
+                                    alt="Seltos Car rental LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Kia Seltos/seltos-luxury-self-drive-hyderabad-3.png"
+                                    alt="Seltos Detail">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3><span class="mobile-hide-branding">Kia </span>Seltos</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹2499/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Creta/creta-luxury-self-drive-lb-nagar-1.jpeg"
+                                    alt="Hyundai Creta Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Creta/creta-luxury-self-drive-lb-nagar-2.jpeg"
+                                    alt="Creta Front View Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Creta/creta-luxury-self-drive-lb-nagar-3.jpeg"
+                                    alt="Creta Side Profile">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Creta</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹2799/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Kia Sonnet/sonnet-self-drive-hyderabad-1.jpeg"
+                                    alt="Kia Sonnet Self Drive Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Kia Sonnet/sonnet-self-drive-hyderabad-2.jpeg"
+                                    alt="Sonnet Car rental BN Reddy">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3><span class="mobile-hide-branding">Kia </span>Sonnet</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹2499/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Brezza/brezza-self-drive-lb-nagar-1.jpg"
+                                    alt="Maruti Brezza Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Brezza/brezza-self-drive-lb-nagar-2.png"
+                                    alt="Brezza Car rental Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Brezza/brezza-self-drive-lb-nagar-3.png"
+                                    alt="Brezza Side View">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Brezza</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹2299/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Grand Vitara/grand-vitara-self-drive-hyderabad-1.jpeg"
+                                    alt="Grand Vitara Self Drive Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Grand Vitara/grand-vitara-self-drive-hyderabad-2.jpeg"
+                                    alt="Vitara SUV rental LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Grand Vitara/grand-vitara-self-drive-hyderabad-3.jpeg"
+                                    alt="Vitara Side Detail">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Grand Vitara</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹2299/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Venue/venue-self-drive-lb-nagar-1.png"
+                                    alt="Hyundai Venue Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Venue/venue-self-drive-lb-nagar-2.png"
+                                    alt="Venue Car rental Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Venue/venue-self-drive-lb-nagar-3.png"
+                                    alt="Venue Interior">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Venue</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹2499/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/XUV 300/xuv300-self-drive-hyderabad-1.png"
+                                    alt="XUV300 Self Drive Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/XUV 300/xuv300-self-drive-hyderabad-2.png"
+                                    alt="Mahindra XUV300 rental LB Nagar">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>XUV 300</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹2299/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Kia Syros/syros-self-drive-lb-nagar-1.jpeg"
+                                    alt="Kia Syros Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/5-seat pro/Kia Syros/syros-self-drive-lb-nagar-2.jpeg"
+                                    alt="Syros Car rental Hyderabad">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3><span class="mobile-hide-branding">Kia </span>Syros</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹2299/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 4: 7-Seat Cars -->
+            <div id="category-7-seat" class="category-section">
+                <h2>7-Seat Cars</h2>
+                <p>Spacious family vehicles starting from ₹2199/day.</p>
+                <div class="grid cards-container">
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat/Ertiga/ertiga-7-seat-self-drive-hyderabad-1.jpeg"
+                                    alt="Maruti Ertiga 7-Seat Self Drive Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat/Ertiga/ertiga-7-seat-self-drive-hyderabad-2.jpeg"
+                                    alt="Ertiga 7-Seat Car rental LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat/Ertiga/ertiga-7-seat-self-drive-hyderabad-3.jpeg"
+                                    alt="Ertiga Interior View">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Ertiga</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / CNG</span></div>
+                            <span class="price-tag">₹2299/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat/XL6/xl6-premium-7-seat-lb-nagar-1.jpeg"
+                                    alt="XL6 Premium 7-Seat Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat/XL6/xl6-premium-7-seat-lb-nagar-2.jpeg"
+                                    alt="XL6 Car rental Hyderabad">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>XL6</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹2499/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat/Rumion/rumion-luxury-7-seat-hyderabad-1.jpeg"
+                                    alt="Maruti Rumion Luxury 7-Seat Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat/Rumion/rumion-luxury-7-seat-hyderabad-2.jpeg"
+                                    alt="Rumion Car rental LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat/Rumion/rumion-luxury-7-seat-hyderabad-3.jpeg"
+                                    alt="Rumion Side Profile">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Rumion</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹2499/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 5: 7-Seat Pro Cars -->
+            <div id="category-7-seat-pro" class="category-section">
+                <h2>7-Seat Pro Cars</h2>
+                <p>Luxury family SUVs starting from ₹2799/day.</p>
+                <div class="grid cards-container">
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Kia Carens/carens-luxury-7-seat-self-drive-hyderabad-1.jpeg"
+                                    alt="Kia Carens 7-Seat Luxury Self Drive Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Kia Carens/carens-luxury-7-seat-self-drive-hyderabad-2.jpeg"
+                                    alt="Carens Car rental LB Nagar">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3><span class="mobile-hide-branding">Kia </span>Carens</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹2799/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Clavis Carens/clavis-7-seat-self-drive-lb-nagar-1.jpeg"
+                                    alt="7-Seat Car - Self Drive Cars in LB Nagar - Clavis">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Clavis Carens/clavis-7-seat-self-drive-lb-nagar-2.jpeg"
+                                    alt="Clavis Side Profile">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Clavis Carens/clavis-7-seat-self-drive-lb-nagar-3.jpeg"
+                                    alt="Clavis Interior Hyderabad">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Clavis Carens</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹2999/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Scorpio/scorpio-self-drive-cars-hyderabad-1.png"
+                                    alt="Mahindra Scorpio Self Drive Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Scorpio/scorpio-self-drive-cars-hyderabad-2.png"
+                                    alt="Scorpio Car rental LB Nagar">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Scorpio</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹3499/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Innova Crysta/innova-crysta-luxury-self-drive-lb-nagar-1.jpeg"
+                                    alt="Toyota Innova Crysta Luxury Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Innova Crysta/innova-crysta-luxury-self-drive-lb-nagar-2.jpeg"
+                                    alt="Innova Crysta Side Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Innova Crysta/innova-crysta-luxury-self-drive-lb-nagar-3.jpeg"
+                                    alt="Innova Interior View">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Innova Crysta/innova-crysta-luxury-self-drive-lb-nagar-4.jpeg"
+                                    alt="Luxury Car rental Hyderabad">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Innova Crysta</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹3999/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/XUV 500/xuv500-self-drive-cars-hyderabad-1.jpeg"
+                                    alt="Mahindra XUV 500 Self Drive Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/XUV 500/xuv500-self-drive-cars-hyderabad-2.jpeg"
+                                    alt="XUV 500 Car rental LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/XUV 500/xuv500-self-drive-cars-hyderabad-3.jpeg"
+                                    alt="XUV 500 Interior View">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>XUV 500</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹3499/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 6: Premium Cars -->
+            <div id="category-premium" class="category-section">
+                <h2>Premium Cars</h2>
+                <p>Upper Segment and Luxury vehicles starting from ₹3499/day.</p>
+                <div class="grid cards-container">
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/Premium/Thar/thar-offroad-self-drive-lb-nagar-1.jpeg" alt="Mahindra Thar Offroad Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/Premium/Thar/thar-offroad-self-drive-lb-nagar-2.jpeg"
+                                    alt="Thar Front View Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/Premium/Thar/thar-offroad-self-drive-lb-nagar-3.jpeg"
+                                    alt="Thar Side Profile">
+                                <img src="selfdrive/final_cars_images/cars_images/Premium/Thar/thar-offroad-self-drive-lb-nagar-4.jpeg"
+                                    alt="Thar Interior Detail">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Mahindra Thar</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹3999/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Innova Crysta/innova-crysta-luxury-self-drive-lb-nagar-1.jpeg"
+                                    alt="Toyota Innova Luxury Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Innova Crysta/innova-crysta-luxury-self-drive-lb-nagar-4.jpeg"
+                                    alt="Innova Crysta Car rental Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/7-seat pro/Innova Crysta/innova-crysta-luxury-self-drive-lb-nagar-3.jpeg"
+                                    alt="Innova Interior Detail">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Innova Crysta</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹3999/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/Premium/Harrier/harrier-luxury-self-drive-hyderabad-1.jpeg"
+                                    alt="TATA Harrier Luxury Self Drive Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/Premium/Harrier/harrier-luxury-self-drive-hyderabad-2.jpeg"
+                                    alt="Harrier SUV rental LB Nagar">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>TATA Harrier</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹3999/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/Premium/MG Hector/hector-premium-self-drive-lb-nagar-1.jpg"
+                                    alt="MG Hector Premium Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/Premium/MG Hector/hector-premium-self-drive-lb-nagar-2.png"
+                                    alt="MG Hector Car rental Hyderabad">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3><span class="mobile-hide-branding">MG </span>Hector</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹4499/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/Premium/Fortuner/fortuner-luxury-self-drive-hyderabad-1.jpg"
+                                    alt="Toyota Fortuner Luxury Self Drive Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/Premium/Fortuner/fortuner-luxury-self-drive-hyderabad-2.png"
+                                    alt="Fortuner SUV rental LB Nagar">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>Fortuner</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹6499/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="category-car-card">
+                        <div class="car-slider-container">
+                            <div class="car-slider">
+                                <img src="selfdrive/final_cars_images/cars_images/Premium/XUV 700/xuv700-premium-self-drive-lb-nagar-1.png"
+                                    alt="Mahindra XUV 700 Premium Self Drive LB Nagar">
+                                <img src="selfdrive/final_cars_images/cars_images/Premium/XUV 700/xuv700-premium-self-drive-lb-nagar-2.png"
+                                    alt="XUV700 Car rental Hyderabad">
+                                <img src="selfdrive/final_cars_images/cars_images/Premium/XUV 700/xuv700-premium-self-drive-lb-nagar-3.png"
+                                    alt="XUV700 Luxury Interior">
+                            </div>
+                        </div>
+                        <div class="car-detail-content">
+                            <h3>XUV 700</h3>
+                            <div class="car-specs"><span><i class="fas fa-gas-pump"></i> Petrol / Diesel</span></div>
+                            <span class="price-tag">₹4499/- <span
+                                    style="font-size: 0.9rem; color: var(--text-gray); font-weight: 400;">per
+                                    day</span></span>
+                            <a href="#contact" class="btn btn-primary w-100">Book<span class="mobile-hide">
+                                    Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-title">
+                <i class="fas fa-envelope highlight"></i>
+                <h2>Get In Touch</h2>
+                <p>We're here to help. Reach out to us for bookings or inquiries.</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-owner-card">
+                        <img src="team/md.jpeg" alt="Managing Director" class="contact-avatar">
+                        <h3>Mani Kumar Reddy</h3>
+                        <h4>Talk directly to our team!</h4>
+                        <p>We are available 24/7(SelfDrive cars) & 9am to 7pm(Services & Washings) for you.</p>
+                    </div>
+
+                    <div class="contact-links">
+                        <a href="tel:+919949750999" class="contact-btn phone">
+                            <i class="fas fa-phone-alt"></i> Call Now: +91 9949750999
+                        </a>
+                        <a href="https://wa.me/919949750999" target="_blank" class="contact-btn whatsapp">
+                            <i class="fab fa-whatsapp"></i> WhatsApp Us
+                        </a>
+                        <a href="mailto:daddycars04@gmail.com" class="contact-btn email">
+                            <i class="fas fa-envelope"></i> Email Us
+                        </a>
+                        <a href="https://instagram.com/daddy_automotive" target="_blank" class="contact-btn instagram">
+                            <i class="fab fa-instagram"></i> @daddy_automotive
+                        </a>
+                        <a href="https://www.youtube.com/@daddyautomotive" target="_blank" class="contact-btn youtube">
+                            <i class="fab fa-youtube"></i> YouTube
+                        </a>
+                        <a href="https://facebook.com/profile.php?id=61581031320705" target="_blank"
+                            class="contact-btn facebook">
+                            <i class="fab fa-facebook-f"></i> Facebook
+                        </a>
+                        <a href="https://maps.app.goo.gl/ZmGjhTNAXUXSgrBi6" target="_blank" class="contact-btn map">
+                            <i class="fas fa-map-marker-alt"></i> Find us on Maps
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" id="contact-name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="tel" id="contact-phone" placeholder="234567890" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Service / Inquiry Type</label>
+                            <select id="contact-service">
+                                <option>Self Drive Car Booking</option>
+                                <option>Car Servicing</option>
+                                <option>Car Washing</option>
+                                <option>Other Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea id="contact-msg" rows="4" placeholder="How can we help you?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+
+                    <!-- Google Map Embed below form - Clickable Link -->
+                    <a href="https://maps.app.goo.gl/ZmGjhTNAXUXSgrBi6" target="_blank" class="map-link">
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15228.694600277884!2d78.54143419782713!3d17.345842888241513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99e8d47b744d%3A0xbd1e411397b9736e!2sDaddy%20Cars%20and%20Automotives!5e0!3m2!1sen!2sin!4v1711581000000!5m2!1sen!2sin" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2024 DaddyCars & Automotives. All Rights Reserved.</p>
+                <div class="service-areas visually-hidden" style="margin-top: 10px; font-size: 0.75rem; color: #555; opacity: 0.5;">
+                    Self Drive Cars in LB Nagar | BN Reddy | Hyderabad | Daddy Cars and Automotives
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- SEO Content Section - Visible for SEO and User Clarity -->
+    <section class="seo-content">
+        <div class="container">
+            <h2>Best Self Drive Cars in LB Nagar, BN Reddy & Hyderabad</h2>
+            <p>
+                Daddy Cars and Automotives provides the best self drive cars near you,
+                premium car washing services, mechanical garage services, AC repair,
+                denting and painting in LB Nagar, BN Reddy and across Hyderabad.
+            </p>
+        </div>
+    </section>
+
+    <!-- Hidden SEO Keyword Section -->
+    <div class="visually-hidden">
+        <h2>Keywords for Daddy Cars and Automotives</h2>
+        <ul>
+            <li>Self Drive Cars near me</li>
+            <li>Car wash near me</li>
+            <li>daddy cars</li>
+            <li>daddycars</li>
+            <li>daddy self drive cars</li>
+            <li>daddy selfdrive cars</li>
+            <li>daddy cars and automotives</li>
+            <li>daddy car wash</li>
+            <li>Self Drive Cars in LB Nagar</li>
+            <li>Car Wash in LB Nagar</li>
+            <li>Self Drive Cars</li>
+            <li>Car washing centers</li>
+            <li>Car Mechanical garrage</li>
+            <li>AC service shop</li>
+            <li>Car Denting and Painting</li>
+            <li>self drive cars in BN Reddy</li>
+            <li>carwash</li>
+            <li>premium car washing centers</li>
+            <li>Mechanical Garrage</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
